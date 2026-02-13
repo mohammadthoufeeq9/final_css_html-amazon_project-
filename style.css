@@ -121,5 +121,26 @@ span{
 .hero{
     background-image:url(heroimg.jpeg);
     background-size: cover;
-    height:600px
+    height:600px;
+    position: relative;
+}
+.heromsg{
+    position: absolute;
+    bottom: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(194, 190, 190, 0.913);
+    color: black;
+    height: 30px;
+    font-size: 0.85rem;
+    width: 95%;
+    text-align: center;
+}
+.heromsg a {
+    color: #007185;
+}
+.heromsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
