@@ -78,3 +78,48 @@
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font: size 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-options{
+    width: 70%;
+    font-size: 0.85 rem;
+}
+.panel-deal{
+    font-size: 0.95rem;
+    font-weight:700%
+}
+.hero{
+    background-image:url(heroimg.jpeg);
+    background-size: cover;
+    height:600px
+}
